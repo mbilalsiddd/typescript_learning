@@ -38,6 +38,8 @@ const updateData: (string | number | any)[] =
   "hello"
 ];
 
+console.log("updateData==>" , updateData)
+
 const [first , second , third , fourth , fifth , sixth] = updateData
 console.log(first);
 console.log(second);
